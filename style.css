@@ -26,6 +26,16 @@
 
   cursor: pointer;
 }
+/* color */
+.bg-color-1 {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+.bg-color-2 {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+.bg-color-3 {
+  background-color: rgba(255, 244, 214, 1);
+}
 
 header,
 main {
@@ -39,7 +49,9 @@ header {
   margin-top: 50px;
 }
 .stay-focused-img {
-  max-width: 426px;
+  max-width: 450px;
+  position: relative;
+  bottom: 40px;
 }
 .stay-focused-img img {
   width: 100%;
@@ -88,6 +100,49 @@ header {
   font-family: Poppins;
   font-size: 1rem;
   font-weight: 400;
+}
+
+/* mission section */
+.my-mission {
+  max-width: 1128px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+.card > img {
+  width: 141px;
+}
+.my-mission h2 {
+  margin-bottom: 48px;
+
+  color: #13103a;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 70px;
+}
+.my-mission h2 .year {
+  color: #ffad5a;
+}
+.card {
+  padding: 33px 13px 45px 32px;
+  border-radius: 26px;
+  max-width: 360px;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.card h4 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  margin-top: 12px;
+  margin-bottom: 16px;
 }
 
 @media screen and (max-width: 576px) {
